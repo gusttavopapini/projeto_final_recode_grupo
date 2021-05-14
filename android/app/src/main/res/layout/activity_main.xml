@@ -38,7 +38,11 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#52669D"
         android:text="entrar"
+<<<<<<< HEAD
         android:textColor="@color/cardview_shadow_start_color"
+=======
+        android:textColor="@color/design_default_color_error"
+>>>>>>> 579d167c6b1ea9546fb3c6369971df415832454a
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
