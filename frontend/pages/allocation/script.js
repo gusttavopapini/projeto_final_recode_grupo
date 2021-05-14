@@ -23,10 +23,10 @@ const loadTable = (data) => {
             <td>${data[i].start_hour} - ${data[i].end_hour}</td>
             <td>
                 <button id="actionsButtons" onclick={goToEdit(${data[i].id})}> 
-                    <img src="../../images/edit icon.png" width="25px" heigth="25px">
+                    <img id="button" src="../../images/edit icon.png" width="25px" heigth="25px">
                 </button>
                 <button id="actionsButtons" onclick={deleteById(${data[i].id})}> 
-                    <img src="../../images/delete icon.png" width="20px" heigth="20px">
+                    <img id="button2" src="../../images/delete icon.png" width="20px" heigth="20px">
                 </button>
             </td>
         </tr>
