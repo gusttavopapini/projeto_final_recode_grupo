@@ -21,10 +21,43 @@ const loadTable = (data) => {
             <td>${data[i].course.name}</td>
             <td>${data[i].days}</td>
             <td>${data[i].start_hour} - ${data[i].end_hour}</td>
+<<<<<<< HEAD
+            <td>
+                <button id="actionsButtons" onclick={goToEdit(${data[i].id})}> 
+                    <img id="button" src="../../images/edit icon.png" width="25px" heigth="25px">
+                </button>
+                <button id="actionsButtons" onclick={deleteById(${data[i].id})}> 
+                    <img id="button2" src="../../images/delete icon.png" width="20px" heigth="20px">
+                </button>
+            </td>
+=======
             <td class="button"><button>Edit</button><button>Delete</button></td>
+>>>>>>> 245b98b (commitando repositórios backend, frontend, android)
         </tr>
         `;
     }
 }
 
+<<<<<<< HEAD
+const deleteById = async (id) => {
+    if(!confirm("Are you sure you want to delete this allocation?")) {
+        return;
+    }
+
+    const response = await fetch(apiUrl + `/${id}`, {
+        method: "DELETE"
+    });
+    if(!response.ok) {
+        alert(`${response.status} - ${response.statusText}`);
+    }else {
+        getData();
+    }
+}
+
+const goToEdit = (id) => {
+    location.href += 'forms/index.html?id=' + id;
+}
+
+=======
+>>>>>>> 245b98b (commitando repositórios backend, frontend, android)
 getData();

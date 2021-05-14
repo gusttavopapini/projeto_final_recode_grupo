@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+div.card {
+    width: 100%;
+    margin-top: 20px;
+}
+
+=======
+>>>>>>> 245b98b (commitando repositórios backend, frontend, android)
 footer {
     padding: 10px;
     height: 40px;
@@ -8,7 +16,29 @@ footer {
     align-items: center;
 }
 
+<<<<<<< HEAD
+#actionsButtons {
+    background-color: transparent;
+    border: none;
+    padding: 4px;
+    margin; 4px;    
+}
+
+#button:hover {
+    background-color: transparent;
+    border: none;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#button2:hover {
+    background-color: transparent;
+    border: none;
+    padding: 3px;
+    border-radius: 3px;
+=======
 .card {
     width: 100%;
     margin-top: 20px;
+>>>>>>> 245b98b (commitando repositórios backend, frontend, android)
 }
