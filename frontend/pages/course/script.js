@@ -19,8 +19,12 @@ const loadTable = (data) => {
             <th>${data[i].id}</th>
             <td>${data[i].name}</td>
             <td>
-                <button class="btn btn-warning" onclick={goToEdit(${data[i].id})}>Edit</button>
-                <button class="btn btn-danger" onclick={deleteById(${data[i].id})}>Delete</button>
+                <button id="actionsButtons" onclick={goToEdit(${data[i].id})}> 
+                    <img id="button" src="../../images/edit icon.png" width="25px" heigth="25px">
+                </button>
+                <button id="actionsButtons" onclick={deleteById(${data[i].id})}> 
+                    <img id="button2" src="../../images/delete icon.png" width="20px" heigth="20px">
+                </button>
             </td>
         </tr>
         `;
@@ -43,7 +47,7 @@ const deleteById = async (id) => {
 }
 
 const goToEdit = (id) => {
-    location.href += '/forms/index.html?id=' + id;
+    location.href += 'forms/index.html?id=' + id;
 }
 
 getData();

@@ -13,8 +13,23 @@ footer {
     align-items: center;
 }
 
-.button {
-    text-align: center;
-    position: relative;
-    justify-content: end;
+#actionsButtons {
+    background-color: transparent;
+    border: none;
+    padding: 1px;
+    border-radius: 3px;   
+}
+
+#button:hover {
+    background-color: transparent;
+    border: none;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#button2:hover {
+    background-color: transparent;
+    border: none;
+    padding: 3px;
+    border-radius: 3px;
 }
