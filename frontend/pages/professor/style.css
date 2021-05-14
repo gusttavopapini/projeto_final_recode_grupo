@@ -13,8 +13,9 @@ footer {
     align-items: center;
 }
 
-.button {
-    text-align: center;
-    position: relative;
-    justify-content: end;
+#actionsButtons {
+    background-color: transparent;
+    border: none;
+    padding: 4px;
+    margin; 4px;    
 }

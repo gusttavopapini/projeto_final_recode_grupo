@@ -12,3 +12,11 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+#actionsButtons {
+    background-color: transparent;
+    border: none;
+    padding: 4px;
+    margin; 4px;    
+}
+

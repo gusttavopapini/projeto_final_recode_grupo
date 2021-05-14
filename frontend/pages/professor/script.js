@@ -20,10 +20,36 @@ const loadTable = (data) => {
             <td>${data[i].name}</td>
             <td>${data[i].cpf}</td>
             <td>${data[i].department.name}</td>
-            <td class="button"><button>Edit</button><button>Delete</button></td>
+            <td>
+                <button id="actionsButtons" onclick={goToEdit(${data[i].id})}> 
+                    <img src="../../images/edit icon.png" width="25px" heigth="25px">
+                </button>
+                <button id="actionsButtons" onclick={deleteById(${data[i].id})}> 
+                    <img src="../../images/delete icon.png" width="20px" heigth="20px">
+                </button>
+            </td>
         </tr>
         `;
     }
+}
+
+const deleteById = async (id) => {
+    if(!confirm("Are you sure you want to delete this professor?")) {
+        return;
+    }
+
+    const response = await fetch(apiUrl + `/${id}`, {
+        method: "DELETE"
+    });
+    if(!response.ok) {
+        alert(`${response.status} - ${response.statusText}`);
+    }else {
+        getData();
+    }
+}
+
+const goToEdit = (id) => {
+    location.href += 'forms/index.html?id=' + id;
 }
 
 getData();
