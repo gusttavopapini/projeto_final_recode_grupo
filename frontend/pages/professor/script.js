@@ -20,7 +20,6 @@ const loadTable = (data) => {
             <td>${data[i].name}</td>
             <td>${data[i].cpf}</td>
             <td>${data[i].department.name}</td>
-<<<<<<< HEAD
             <td>
                 <button id="actionsButtons" onclick={goToEdit(${data[i].id})}> 
                     <img id="button" src="../../images/edit icon.png" width="25px" heigth="25px">
@@ -29,15 +28,11 @@ const loadTable = (data) => {
                     <img id="button2" src="../../images/delete icon.png" width="20px" heigth="20px">
                 </button>
             </td>
-=======
-            <td class="button"><button>Edit</button><button>Delete</button></td>
->>>>>>> 245b98b (commitando repositórios backend, frontend, android)
         </tr>
         `;
     }
 }
 
-<<<<<<< HEAD
 const deleteById = async (id) => {
     if(!confirm("Are you sure you want to delete this professor?")) {
         return;
@@ -57,6 +52,4 @@ const goToEdit = (id) => {
     location.href += 'forms/index.html?id=' + id;
 }
 
-=======
->>>>>>> 245b98b (commitando repositórios backend, frontend, android)
 getData();

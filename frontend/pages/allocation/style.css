@@ -13,7 +13,6 @@ footer {
     align-items: center;
 }
 
-<<<<<<< HEAD
 #actionsButtons {
     background-color: transparent;
     border: none;
@@ -33,10 +32,4 @@ footer {
     border: none;
     padding: 3px;
     border-radius: 3px;
-=======
-.button {
-    text-align: center;
-    position: relative;
-    justify-content: end;
->>>>>>> 245b98b (commitando repositórios backend, frontend, android)
 }
