@@ -15,6 +15,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
+        />
 
 
     <ImageButton
@@ -71,7 +72,8 @@
         android:textColor="#52669D"
         app:layout_constraintEnd_toEndOf="@+id/buttonCurse"
         app:layout_constraintStart_toStartOf="@+id/buttonCurse"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCurse" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonCurse"
+        />
 
     <TextView
         android:id="@+id/textProfessor"
@@ -81,7 +83,8 @@
         android:textColor="#52669D"
         app:layout_constraintEnd_toEndOf="@+id/buttonProfessor"
         app:layout_constraintStart_toStartOf="@+id/buttonProfessor"
-        app:layout_constraintTop_toBottomOf="@+id/buttonProfessor" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonProfessor"
+        />
 
     <TextView
         android:id="@+id/textDepartament"
@@ -91,7 +94,8 @@
         android:textColor="#52669D"
         app:layout_constraintEnd_toEndOf="@+id/buttonDepartament"
         app:layout_constraintStart_toStartOf="@+id/buttonDepartament"
-        app:layout_constraintTop_toBottomOf="@+id/buttonDepartament" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonDepartament"
+        />
 
     <TextView
         android:id="@+id/textAlocation"
@@ -101,7 +105,8 @@
         android:textColor="#52669D"
         app:layout_constraintEnd_toEndOf="@+id/buttonAlocation"
         app:layout_constraintStart_toStartOf="@+id/buttonAlocation"
-        app:layout_constraintTop_toBottomOf="@+id/buttonAlocation" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonAlocation"
+        />
 
     <ImageView
         android:id="@+id/imageView"
@@ -110,7 +115,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/logo_text_foreground" />
-
+        app:srcCompat="@mipmap/logo_text_foreground"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

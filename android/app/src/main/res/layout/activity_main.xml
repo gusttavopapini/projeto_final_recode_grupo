@@ -38,6 +38,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#52669D"
         android:text="entrar"
+        android:onClick="fazerLogin"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
