@@ -31,7 +31,7 @@ const save = (e) => {
     const name = document.getElementById("name").value.trim();
 
     if(!name) {
-        alert("Department name is necessary!");
+        alert("Department's name is necessary!");
         return;
     }
 
