@@ -4,7 +4,6 @@ const apiUrlDepartament = "http://localhost:8080/departments"
 const form = document.querySelector("form");
 
 let id = 0;
-let departaments = false;
 
 const verifyId = () => {
     const queryString = window.location.search;
@@ -16,7 +15,7 @@ const verifyId = () => {
         title.innerText = "Edit Professor";
         getData();
     }
-}
+};
 
 const getData = async () => {
     const response = await fetch(apiUrl + `/${id}`);
@@ -25,8 +24,17 @@ const getData = async () => {
         document.getElementById("name").value = data.name;
         document.getElementById("cpf").value = data.cpf;
         document.getElementById("department").value = data.departament.name;
+        loadTable(data)
+    }
+    if (!departaments) {
+      const responseDepartament = await fetch(apiUrlDepartament);
+      if (responseDepartament.ok) {
+        const data = await responseDepartament.json();
+        loadSelect(data);
+      }
     }
 };
+getData();
 
 const loadSelect = async () => {
     const department = document.getElementById("department");
@@ -43,6 +51,18 @@ const loadSelect = async () => {
 
 verifyId();
 loadSelect();
+
+const getProfessor = async (id) => {
+    const response = await fetch(apiUrl + `/${id}`);
+    if (response.ok) {
+      const data = await response.json();
+      document.getElementById("name").value = data.name;
+      document.getElementById("cpf").value = data.cpf;
+      document.getElementById("departament").value = data.departament.id;
+    }
+}
+
+let professorId = id;
   
 const save = (e) => {
     e.preventDefault();
@@ -56,10 +76,10 @@ const save = (e) => {
       return;
     }
   
-    const method = id ? "PUT" : "POST";
+    const method = professorId ? "PUT" : "POST";
     let url = apiUrl;
-    if (id) {
-      url = apiUrl + `/${id}`;
+    if (professorId) {
+      url = apiUrl + `/${professorId}`;
     }
   
     const objRequest = {
@@ -71,7 +91,7 @@ const save = (e) => {
     };  
   
     makeRequest(objRequest, method, url);
-  } 
+  };
 
 form.addEventListener("submit", save);
 
@@ -97,8 +117,8 @@ async function makeRequest(data, method, url) {
     }else {
         location.href = '../';
     }
-}
+};
 
 document.getElementById("cancel").addEventListener("click", () => {
     location.href = '../';
-})
+});
