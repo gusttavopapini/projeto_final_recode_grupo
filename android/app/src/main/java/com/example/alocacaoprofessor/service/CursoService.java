@@ -10,6 +10,6 @@ import retrofit2.http.GET;
 public interface CursoService {
 
     @GET("course")
-    Call<List<Curso>> getCursos();
+    Call<List<Curso>> getAllCursos();
 
 }

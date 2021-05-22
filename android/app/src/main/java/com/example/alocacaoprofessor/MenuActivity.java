@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.alocacaoprofessor.view.DepartamentoActivity;
-import com.example.alocacaoprofessor.view.DetalheDoItemActivity;
 
 public class MenuActivity extends AppCompatActivity {
 
@@ -29,8 +28,4 @@ public class MenuActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void abrirTelaDepartamentoDetalhes(View view) {
-        Intent intent = new Intent(this, DetalheDoItemActivity.class);
-        startActivity(intent);
-    }
 }

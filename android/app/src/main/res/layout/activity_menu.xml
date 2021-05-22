@@ -6,32 +6,68 @@
     android:layout_height="match_parent"
     tools:context=".MenuActivity">
 
-    <Button
+    <ImageButton
         android:id="@+id/buttonCurso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tela Curso"
+        android:layout_marginTop="244dp"
+        android:background="@mipmap/books_foreground"
         android:onClick="abrirTelaCurso"
+        android:text="Tela Curso"
         app:layout_constraintEnd_toStartOf="@+id/buttonDepartamento"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/buttonDepartamento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="244dp"
+        android:background="@mipmap/conect_foreground"
         android:onClick="abrirTelaDepartamento"
         android:text="Tela Departamento"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/buttonCurso"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btDepartamentDetail"
+    <ImageButton
+        android:layout_width="78dp"
+        android:layout_height="83dp"
+        android:background="@mipmap/logout_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick=""/>
+
+    <ImageButton
+        android:id="@+id/buttonAllocation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Detalhe do Departamento"
-        android:onClick="abrirTelaDepartamentoDetalhes"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="132dp"
+
+        android:background="@mipmap/calendar_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonCurso" />
+
+    <ImageButton
+        android:id="@+id/professor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:background="@mipmap/pessoas_foreground"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonDepartamento" />
+        app:layout_constraintStart_toEndOf="@id/buttonAllocation"
+        app:layout_constraintTop_toBottomOf="@id/buttonDepartamento" />
+
+    <ImageView
+        android:layout_width="186dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="36dp"
+        android:background="@mipmap/Logo_Text_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

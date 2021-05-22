@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         RoomConfiguration roomConfiguration = RoomConfiguration.getInstance(this);
 
-        Call<List<Curso>> call = configuration.getCursosService().getCursos();
+        Call<List<Curso>> call = configuration.getCursosService().getAllCursos();
 
         call.enqueue(new Callback<List<Curso>>() {
             @Override
