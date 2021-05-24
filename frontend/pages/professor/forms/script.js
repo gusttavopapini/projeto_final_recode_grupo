@@ -1,5 +1,5 @@
 const apiUrl = "http://localhost:8080/professors";
-const apiUrlDepartament = "http://localhost:8080/departments"
+const apiUrlDepartment = "http://localhost:8080/departments";
 
 const form = document.querySelector("form");
 
@@ -11,114 +11,93 @@ const verifyId = () => {
     id = urlParams.get('id');
 
     if(id) {
-        const title = document.getElementById("title-form");
-        title.innerText = "Edit Professor";
-        getData();
+      const title = document.getElementById("title-form");
+      title.innerText = "Edit Professor";
+      getData(id);
     }
 };
 
-const getData = async () => {
-    const response = await fetch(apiUrl + `/${id}`);
-    if(response.ok) {
-        const data = await response.json();
-        document.getElementById("name").value = data.name;
-        document.getElementById("cpf").value = data.cpf;
-        document.getElementById("department").value = data.departament.name;
-        loadTable(data)
-    }
-    if (!departaments) {
-      const responseDepartament = await fetch(apiUrlDepartament);
-      if (responseDepartament.ok) {
-        const data = await responseDepartament.json();
-        loadSelect(data);
-      }
-    }
+const getData = async (id) => {
+  const response = await fetch(apiUrl + `/${id}`);
+  if(response.ok) {
+    const data = await response.json();
+    document.getElementById("name").value = data.name;
+    document.getElementById("cpf").value = data.cpf;
+    document.getElementById("department").value = data.department.id;
+    loadSelect();
+  }
 };
-getData();
 
 const loadSelect = async () => {
-    const department = document.getElementById("department");
-    const responseDepartment = await fetch(apiUrlDepartament);
-    if (responseDepartment.ok) {
-      const data = await responseDepartment.json();
-      for (let i = 0; i < data.length; i++) {
-        department.innerHTML += `
-        <option value="${data[i].id}">${data[i].name}</option>
-        `;
-      }
-    }    
+  const department = document.getElementById("department");
+  const responseDepartment = await fetch(apiUrlDepartment);
+  if (responseDepartment.ok) {
+    const data = await responseDepartment.json();
+    for (let i = 0; i < data.length; i++) {
+      department.innerHTML += `
+      <option value="${data[i].id}">${data[i].name}</option>
+      `;
+    }
+  }    
 };
 
-verifyId();
+verifyId(); 
 loadSelect();
-
-const getProfessor = async (id) => {
-    const response = await fetch(apiUrl + `/${id}`);
-    if (response.ok) {
-      const data = await response.json();
-      document.getElementById("name").value = data.name;
-      document.getElementById("cpf").value = data.cpf;
-      document.getElementById("departament").value = data.departament.id;
-    }
-}
-
-let professorId = id;
   
 const save = (e) => {
-    e.preventDefault();
+  e.preventDefault();
   
-    const name = document.getElementById("name").value.trim();
-    const cpf = document.getElementById("cpf").value.trim();
-    const departamentId = parseInt(document.getElementById("department").value.trim());
+  const name = document.getElementById("name").value.trim();
+  const cpf = document.getElementById("cpf").value.trim();
+  const departmentId = parseInt(document.getElementById("department").value.trim());
   
-    if (!name || !cpf || !departamentId) {
-      alert("All inputs is necessary!");
-      return;
+  if (!name || !cpf || !departmentId) {
+    alert("All inputs is necessary!");
+    return;
+  }
+  
+  const method = id ? "PUT" : "POST";
+  let url = apiUrl;
+  if (id) {
+    url = apiUrl + `/${id}`;
+  }
+  
+  const objRequest = {
+    name: name,
+    cpf: cpf,
+    department: {
+      id: departmentId
     }
+  };  
   
-    const method = professorId ? "PUT" : "POST";
-    let url = apiUrl;
-    if (professorId) {
-      url = apiUrl + `/${professorId}`;
-    }
-  
-    const objRequest = {
-      name: name,
-      cpf: cpf,
-      departament: {
-        id: departamentId
-      }
-    };  
-  
-    makeRequest(objRequest, method, url);
-  };
+  makeRequest(objRequest, method, url);
+};
 
 form.addEventListener("submit", save);
 
 async function makeRequest(data, method, url) {
-    const res = await fetch(url,
-        {
-            method: method,
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type':'application/json'
-            },
-            body: JSON.stringify(data)
-        });
+  const res = await fetch(url, {
+    method: method,
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type':'application/json'
+    },
+    body: JSON.stringify(data)
+  });
 
-    if(!res.ok) {
-        alert(`${res.status} - ${res.statusText}`);
-        return;
-    }
+  if(!res.ok) {
+    alert(`${res.status} - ${res.statusText}`);
+    return;
+  }
 
-    const jsonResult = await res.json();
-    if(JSON.stringify(jsonResult).includes("message")) {
-        alert(jsonResult.message);
-    }else {
-        location.href = '../';
-    }
+  const jsonResult = await res.json();
+  if(JSON.stringify(jsonResult).includes("message")) {
+    alert(jsonResult.message);
+  }else {
+    location.href = '../';
+  }
 };
 
 document.getElementById("cancel").addEventListener("click", () => {
-    location.href = '../';
+  location.href = '../';
 });

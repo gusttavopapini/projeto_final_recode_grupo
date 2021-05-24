@@ -1,6 +1,6 @@
 const table = document.getElementById("professor-table");
 
-const apiUrl = "http://localhost:8080/professors"
+const apiUrl = "http://localhost:8080/professors";
 
 const getData = async () => {
     const response = await fetch(apiUrl);
