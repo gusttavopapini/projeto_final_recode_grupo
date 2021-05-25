@@ -37,36 +37,36 @@ public class CursoActivity extends AppCompatActivity {
         adapter = new CursoAdapter(this, R.layout.item_list, listObject);
         cursoList.setAdapter(adapter);
 
-        getAllItemsByServer();
+        getAllItemsByServerCurso();
 
     }
 
-    private void getAllItemsByServer() {
+    private void getAllItemsByServerCurso() {
 
         RetrofitConfiguration retrofitConfiguration = new RetrofitConfiguration();
-        Call<List<Curso>> service = retrofitConfiguration.getCursosService().getTodosOsDepartamentos();
+        Call<List<Curso>> service = retrofitConfiguration.getCursosService().getAllCursos();
 
-        service.enqueue(new Callback<List<Departamento>>() {
+        service.enqueue(new Callback<List<Curso>>() {
             @Override
-            public void onResponse(Call<List<Departamento>> call, Response<List<Departamento>> response) {
+            public void onResponse(Call<List<Curso>> call, Response<List<Curso>> response) {
                 if (response.isSuccessful()) {
-                    List<Departamento> departamentos = response.body();
-                    listObject.addAll(departamentos);
+                    List<Curso> cursos = response.body();
+                    listObject.addAll(cursos);
                     adapter.notifyDataSetChanged();
 
-                    for (Departamento departamento : listObject) {
-                        Log.i(DepartamentoActivity.class.getSimpleName(), departamento.getName());
+                    for (Curso curso : listObject) {
+                        Log.i(CursoActivity.class.getSimpleName(), curso.getName());
                     }
 
                 } else {
                     String mensagemErro = response.errorBody().toString();
-                    Toast.makeText(DepartamentoActivity.this, mensagemErro, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(CursoActivity.this, mensagemErro, Toast.LENGTH_SHORT).show();
                 }
             }
 
             @Override
-            public void onFailure(Call<List<Departamento>> call, Throwable t) {
-                Toast.makeText(DepartamentoActivity.this, "Requisição para API de Departamento falhou", Toast.LENGTH_SHORT).show();
+            public void onFailure(Call<List<Curso>> call, Throwable t) {
+                Toast.makeText(CursoActivity.this, "Requisição para API de Curso falhou", Toast.LENGTH_SHORT).show();
             }
         });
 
