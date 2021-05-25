@@ -1,22 +1,19 @@
 package com.example.alocacaoprofessor.model;
 
-import androidx.room.Entity;
-import androidx.room.PrimaryKey;
+import java.util.List;
 
-@Entity
-public class Curso {
-
-    @PrimaryKey
+public class CursoDTO {
+    private List<Curso> Curso;
     private int id;
     private String name;
 
-    public Curso(int id, String name) {
+    public CursoDTO(List<Curso>Curso, int id, String name) {
         this.id = id;
         this.name = name;
     }
 
-        public Curso() {
-        }
+    public CursoDTO() {
+    }
 
     public int getId() {
         return id;
@@ -33,4 +30,5 @@ public class Curso {
     public void setName(String name) {
         this.name = name;
     }
+
 }
