@@ -24,7 +24,6 @@ const getData = async (id) => {
     document.getElementById("name").value = data.name;
     document.getElementById("cpf").value = data.cpf;
     document.getElementById("department").value = data.department.id;
-    loadSelect();
   }
 };
 

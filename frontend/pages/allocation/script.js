@@ -1,6 +1,6 @@
 const table = document.getElementById("allocation-table");
 
-const apiUrl = "http://localhost:8080/allocations"
+const apiUrl = "http://localhost:8080/allocations";
 
 const getData = async () => {
     const response = await fetch(apiUrl);
