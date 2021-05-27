@@ -58,10 +58,10 @@ const loadSelect = async () => {
       <option value="${dataCourse[i].id}">${dataCourse[i].name}</option>
       `;
       //...até aqui
-      loadDaysOfWeek();
-      loadHours();
     }
   }
+  loadDaysOfWeek();
+  loadHours();
 };
 
 verifyId();
