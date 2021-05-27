@@ -5,7 +5,8 @@ const form = document.querySelector("form");
 
 let id = 0;
 
-const verifyId = () => {
+const verifyId = async () => {
+  await loadSelect();
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     id = urlParams.get('id');
@@ -40,8 +41,7 @@ const loadSelect = async () => {
   }    
 };
 
-verifyId(); 
-loadSelect();
+verifyId();
   
 const save = (e) => {
   e.preventDefault();
@@ -51,7 +51,7 @@ const save = (e) => {
   const departmentId = parseInt(document.getElementById("department").value.trim());
   
   if (!name || !cpf || !departmentId) {
-    alert("All inputs is necessary!");
+    alert("All inputs are necessary!");
     return;
   }
   
