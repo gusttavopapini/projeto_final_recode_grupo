@@ -47,9 +47,11 @@
                 Professor
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><a class="btn btn-primary" href="./forms">Add Professor</a></li>
+              <div>                
+                <li class="list-group-item"><a class="btn btn-primary" href="./forms">Add Professor</a></li>
+              </div>              
               <li class="list-group-item">
-                <table class="table table-hover">
+                <table id="professor-table" class="table table-hover">
                     <thead>
                       <tr>
                         <th scope="col">ID</th>
@@ -59,10 +61,10 @@
                         <th></th>
                       </tr>
                     </thead>
-                    <tbody id="professor-table">
+                    <tbody>
                       <tr>
                         <th></th>
-                        <td></td>
+                        <td id="name-filter"></td>
                         <td></td>
                         <td></td>
                         <td></td>

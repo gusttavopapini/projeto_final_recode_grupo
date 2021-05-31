@@ -1,6 +1,6 @@
 const table = document.getElementById("professor-table");
 
-const apiUrl = "http://localhost:8080/professors"
+const apiUrl = "https://projeto-recodeiv.herokuapp.com/professors"
 
 const getData = async () => {
     const response = await fetch(apiUrl);
@@ -25,7 +25,7 @@ const loadTable = (data) => {
                     <img id="button" src="../../images/edit icon.png" width="25px" heigth="25px">
                 </button>
                 <button id="actionsButtons" onclick={deleteById(${data[i].id})}> 
-                    <img id="button2" src="../../images/delete icon.png" width="20px" heigth="20px">
+                    <img id="button" src="../../images/delete icon.png" width="20px" heigth="20px">
                 </button>
             </td>
         </tr>
@@ -53,3 +53,5 @@ const goToEdit = (id) => {
 }
 
 getData();
+
+

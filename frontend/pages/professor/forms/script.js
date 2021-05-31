@@ -1,5 +1,5 @@
-const apiUrl = "http://localhost:8080/professors";
-const apiUrlDepartment = "http://localhost:8080/departments";
+const apiUrl = "https://projeto-recodeiv.herokuapp.com/professors";
+const apiUrlDepartment = "https://projeto-recodeiv.herokuapp.com/departments";
 
 const form = document.querySelector("form");
 

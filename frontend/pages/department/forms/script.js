@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:8080/departments";
+const apiUrl = "https://projeto-recodeiv.herokuapp.com/departments";
 const form = document.querySelector("form");
 
 let id = 0;

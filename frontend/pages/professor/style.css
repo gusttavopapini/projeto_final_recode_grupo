@@ -26,10 +26,3 @@ footer {
     padding: 3px;
     border-radius: 3px;
 }
-
-#button2:hover {
-    background-color: transparent;
-    border: none;
-    padding: 3px;
-    border-radius: 3px;
-}

@@ -1,7 +1,7 @@
 //precisa mudar para chamar o local do servidor correto...
-const apiUrl = "http://localhost:8080/allocations";
-const apiUrlProfessor = "http://localhost:8080/professors";
-const apiUrlCourse = "http://localhost:8080/courses";
+const apiUrl = "https://projeto-recodeiv.herokuapp.com/allocations";
+const apiUrlProfessor = "https://projeto-recodeiv.herokuapp.com/professors";
+const apiUrlCourse = "https://projeto-recodeiv.herokuapp.com/courses";
 //...até aqui
 
 const form = document.querySelector("form");
