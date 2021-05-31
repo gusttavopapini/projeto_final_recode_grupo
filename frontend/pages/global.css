@@ -11,7 +11,14 @@ footer {
 main > img {
     margin-top: 40px;
     margin-bottom: 40px;
-    display: block;
+    display: flex;
+    align-content: center;
     margin-left: auto;
     margin-right: auto;
 }
+
+.responsive {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
