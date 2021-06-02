@@ -1,5 +1,0 @@
-package com.project.professorallocation.repository;
-
-public interface AllocationRepositoryProf {
-
-}
