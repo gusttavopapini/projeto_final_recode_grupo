@@ -1,0 +1,2 @@
+rootProject.name = "projeto_final_recode_android"
+include ':app'

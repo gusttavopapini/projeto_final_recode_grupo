@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">[RE]CODE</string>
+
+    <!-- InsertScreen -->
+    <string name="insert_name_course">Course Name</string>
+    <string name="insert_button">add</string>
+    <string name="course_inserted_successfully">Course was successfully inserted</string>
+    <string name="course_error_to_insert">There was an error when inserting Course</string>
+</resources>
