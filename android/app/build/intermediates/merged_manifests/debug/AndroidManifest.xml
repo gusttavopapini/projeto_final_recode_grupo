@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.projeto_final_recode_android"
+    package="com.example.alocacaoprofessor"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="23"
         android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -17,8 +19,16 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Projeto_final_recode_android" >
-        <activity android:name="com.example.projeto_final_recode_android.MainActivity" >
+        android:testOnly="true"
+        android:theme="@style/Theme.AlocacaoProfessor" >
+        <activity
+            android:name="com.example.alocacaoprofessor.view.DetalheDoItemActivity"
+            android:parentActivityName="com.example.alocacaoprofessor.view.DetalheDoItemActivity" />
+        <activity android:name="com.example.alocacaoprofessor.view.DepartamentoActivity" />
+        <activity
+            android:name="com.example.alocacaoprofessor.MainActivity"
+            android:parentActivityName="com.example.alocacaoprofessor.MenuActivity" />
+        <activity android:name="com.example.alocacaoprofessor.MenuActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

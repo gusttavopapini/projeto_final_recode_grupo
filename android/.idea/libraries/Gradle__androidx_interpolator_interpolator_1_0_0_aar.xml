@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.interpolator:interpolator:1.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/Recode/Projetos/AndroidStudioProjects/mensagem_recode/gradle/caches/transforms-2/files-2.1/e8f0acaae729b565a4d0fca4d2eda0f0/interpolator-1.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/Recode/Projetos/AndroidStudioProjects/mensagem_recode/gradle/caches/transforms-2/files-2.1/e8f0acaae729b565a4d0fca4d2eda0f0/interpolator-1.0.0/res" />
-      <root url="file://$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/Recode/Projetos/AndroidStudioProjects/mensagem_recode/gradle/caches/transforms-2/files-2.1/e8f0acaae729b565a4d0fca4d2eda0f0/interpolator-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/Recode/Projetos/AndroidStudioProjects/mensagem_recode/gradle/caches/transforms-2/files-2.1/2c4abb3c9f84da22a9da11e175a85c23/interpolator-1.0.0/res" />
+      <root url="jar://$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/Recode/Projetos/AndroidStudioProjects/mensagem_recode/gradle/caches/transforms-2/files-2.1/5586921ae4cea2e46fb71f72d59033a3/interpolator-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/Recode/Projetos/AndroidStudioProjects/mensagem_recode/gradle/caches/transforms-2/files-2.1/5586921ae4cea2e46fb71f72d59033a3/interpolator-1.0.0/res" />
+      <root url="file://$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/Recode/Projetos/AndroidStudioProjects/mensagem_recode/gradle/caches/transforms-2/files-2.1/5586921ae4cea2e46fb71f72d59033a3/interpolator-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
