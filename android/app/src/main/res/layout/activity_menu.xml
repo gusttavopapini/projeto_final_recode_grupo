@@ -8,25 +8,28 @@
 
     <Button
         android:id="@+id/buttonCurso"
-        android:layout_width="106dp"
-        android:layout_height="64dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/dark_gray"
         android:text="Tela Curso"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/buttonDepartamento"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.419" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonDepartamento" />
 
     <Button
         android:id="@+id/buttonDepartamento"
-        android:layout_width="165dp"
-        android:layout_height="62dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/dark_gray"
         android:onClick="abrirTelaDepartamento"
         android:text="Tela Departamento"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/buttonCurso"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.421" />
+        app:layout_constraintBottom_toTopOf="@id/buttonCurso"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

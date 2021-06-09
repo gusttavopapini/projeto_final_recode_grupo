@@ -17,7 +17,7 @@
 
         <TextView
             android:id="@+id/tvItemTitle"
-            android:layout_width="289dp"
+            android:layout_width="238dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:layout_marginTop="8.5dp"
@@ -29,13 +29,33 @@
 
         <TextView
             android:id="@+id/idDepartment"
-            android:layout_width="wrap_content"
+            android:layout_width="24dp"
             android:layout_height="wrap_content"
-            android:text="id"
             android:layout_marginTop="8.5dp"
+            android:text="id"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/editDepartment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_edit"
+            android:layout_marginStart="20dp"/>
+
+        <ImageButton
+            android:id="@+id/deleteDepartment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_delete"
+            android:layout_marginStart="3dp"
+            />
+
+
+
 
 
     </LinearLayout>
