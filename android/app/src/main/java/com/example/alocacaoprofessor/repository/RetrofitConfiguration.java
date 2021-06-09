@@ -1,6 +1,5 @@
 package com.example.alocacaoprofessor.repository;
 
-import com.example.alocacaoprofessor.service.CursoService;
 import com.example.alocacaoprofessor.service.DepartamentoService;
 
 import retrofit2.Retrofit;
@@ -15,10 +14,6 @@ public class RetrofitConfiguration {
                 .baseUrl("https://projeto-recodeiv.herokuapp.com/")
                 .addConverterFactory(JacksonConverterFactory.create())
                 .build();
-    }
-
-    public CursoService getCursosService() {
-        return retrofit.create(CursoService.class);
     }
 
     public DepartamentoService getDepartamentoService() {

@@ -4,20 +4,12 @@
         "source": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/build/intermediates/res/merged/debug/layout_item_professor_departamento.xml.flat",
-        "source": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/res/layout/item_professor_departamento.xml"
-    },
-    {
         "merged": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/build/intermediates/res/merged/debug/layout_activity_departamento.xml.flat",
         "source": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/res/layout/activity_departamento.xml"
     },
     {
         "merged": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/build/intermediates/res/merged/debug/drawable_conta_privada.png.flat",
-        "source": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/res/drawable/conta_privada.png"
     },
     {
         "merged": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -34,10 +26,6 @@
     {
         "merged": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/build/intermediates/res/merged/debug/layout_activity_detalhe_do_item.xml.flat",
-        "source": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/res/layout/activity_detalhe_do_item.xml"
     },
     {
         "merged": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
@@ -58,6 +46,10 @@
     {
         "merged": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/build/intermediates/res/merged/debug/layout_item_departamento.xml.flat",
+        "source": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/res/layout/item_departamento.xml"
     },
     {
         "merged": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",

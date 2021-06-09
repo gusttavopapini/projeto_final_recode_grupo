@@ -1,12 +1,9 @@
 package com.example.alocacaoprofessor.model;
 
-import java.util.List;
-
 public class Departamento {
 
     private int id;
     private String name;
-    private List<Professor> professors;
 
     public Departamento(int id, String name) {
         this.id = id;

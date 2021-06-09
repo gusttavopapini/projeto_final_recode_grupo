@@ -11,11 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AlocacaoProfessor">
-        <activity android:name=".view.DetalheDoItemActivity"
-            android:parentActivityName=".view.DetalheDoItemActivity"/>
         <activity android:name=".view.DepartamentoActivity" />
-        <activity android:name=".MainActivity"
-            android:parentActivityName=".MenuActivity"/>
         <activity android:name=".MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

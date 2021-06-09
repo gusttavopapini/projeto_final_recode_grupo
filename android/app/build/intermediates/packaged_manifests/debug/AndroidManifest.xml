@@ -21,13 +21,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AlocacaoProfessor" >
-        <activity
-            android:name="com.example.alocacaoprofessor.view.DetalheDoItemActivity"
-            android:parentActivityName="com.example.alocacaoprofessor.view.DetalheDoItemActivity" />
         <activity android:name="com.example.alocacaoprofessor.view.DepartamentoActivity" />
-        <activity
-            android:name="com.example.alocacaoprofessor.MainActivity"
-            android:parentActivityName="com.example.alocacaoprofessor.MenuActivity" />
         <activity android:name="com.example.alocacaoprofessor.MenuActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

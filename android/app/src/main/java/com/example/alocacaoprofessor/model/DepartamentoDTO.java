@@ -3,25 +3,15 @@ package com.example.alocacaoprofessor.model;
 import java.util.List;
 
 public class DepartamentoDTO {
-    private List<Professor> professors;
     private int id;
     private String name;
 
-    public DepartamentoDTO(List<Professor> professors, int id, String name) {
-        this.professors = professors;
+    public DepartamentoDTO(List<Departamento> departamentos, int id, String name) {
         this.id = id;
         this.name = name;
     }
 
     public DepartamentoDTO() {
-    }
-
-    public List<Professor> getProfessors() {
-        return professors;
-    }
-
-    public void setProfessors(List<Professor> professors) {
-        this.professors = professors;
     }
 
     public int getId() {

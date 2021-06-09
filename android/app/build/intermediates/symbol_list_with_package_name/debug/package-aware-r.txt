@@ -1636,7 +1636,6 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
-drawable conta_privada
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1775,7 +1774,6 @@ id blocking
 id bottom
 id bounce
 id btDepartamentDetail
-id btEnviar
 id buttonCurso
 id buttonDepartamento
 id buttonPanel
@@ -1846,7 +1844,6 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
-id etItemId
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1899,7 +1896,6 @@ id line3
 id linear
 id listMode
 id list_item
-id llProfessorsName
 id lvDepartamentolist
 id lvListView
 id masked
@@ -2094,8 +2090,6 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tvItemId
-id tvItemName
 id tvItemTitle
 id tvProfessorNameItem
 id unchecked
@@ -2171,7 +2165,6 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_departamento
-layout activity_detalhe_do_item
 layout activity_main
 layout activity_menu
 layout custom_dialog
@@ -2190,8 +2183,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout item_departamento
 layout item_list
-layout item_professor_departamento
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider

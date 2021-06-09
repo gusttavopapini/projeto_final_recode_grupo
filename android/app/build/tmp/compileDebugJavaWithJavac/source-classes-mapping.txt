@@ -1,37 +1,17 @@
-com/example/alocacaoprofessor/model/CursoDTO.java
- com.example.alocacaoprofessor.model.CursoDTO
-com/example/alocacaoprofessor/model/Departamento.java
- com.example.alocacaoprofessor.model.Departamento
-com/example/alocacaoprofessor/dao/CursoDAO.java
- com.example.alocacaoprofessor.dao.CursoDAO
-com/example/alocacaoprofessor/service/DepartamentoService.java
- com.example.alocacaoprofessor.service.DepartamentoService
-com/example/alocacaoprofessor/view/CursoAdapter.java
- com.example.alocacaoprofessor.view.CursoAdapter
 com/example/alocacaoprofessor/view/DepartamentoActivity.java
  com.example.alocacaoprofessor.view.DepartamentoActivity
  com.example.alocacaoprofessor.view.DepartamentoActivity$1
-com/example/alocacaoprofessor/dao/RoomConfiguration.java
- com.example.alocacaoprofessor.dao.RoomConfiguration
-com/example/alocacaoprofessor/view/DetalheDoItemActivity.java
- com.example.alocacaoprofessor.view.DetalheDoItemActivity
- com.example.alocacaoprofessor.view.DetalheDoItemActivity$1
-com/example/alocacaoprofessor/model/Professor.java
- com.example.alocacaoprofessor.model.Professor
-com/example/alocacaoprofessor/model/Curso.java
- com.example.alocacaoprofessor.model.Curso
 com/example/alocacaoprofessor/view/DepartamentoAdapter.java
  com.example.alocacaoprofessor.view.DepartamentoAdapter
 com/example/alocacaoprofessor/BuildConfig.java
  com.example.alocacaoprofessor.BuildConfig
-com/example/alocacaoprofessor/MainActivity.java
- com.example.alocacaoprofessor.MainActivity
- com.example.alocacaoprofessor.MainActivity$1
 com/example/alocacaoprofessor/model/DepartamentoDTO.java
  com.example.alocacaoprofessor.model.DepartamentoDTO
 com/example/alocacaoprofessor/repository/RetrofitConfiguration.java
  com.example.alocacaoprofessor.repository.RetrofitConfiguration
-com/example/alocacaoprofessor/service/CursoService.java
- com.example.alocacaoprofessor.service.CursoService
+com/example/alocacaoprofessor/model/Departamento.java
+ com.example.alocacaoprofessor.model.Departamento
+com/example/alocacaoprofessor/service/DepartamentoService.java
+ com.example.alocacaoprofessor.service.DepartamentoService
 com/example/alocacaoprofessor/MenuActivity.java
  com.example.alocacaoprofessor.MenuActivity

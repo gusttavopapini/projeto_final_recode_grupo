@@ -15,7 +15,7 @@
 11-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:7:5-26:19
+13-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:7:5-22:19
 14        android:allowBackup="true"
 14-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -33,44 +33,32 @@
 22        android:testOnly="true"
 23        android:theme="@style/Theme.AlocacaoProfessor" >
 23-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:13:9-55
-24        <activity
-24-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:14:9-15:71
-25            android:name="com.example.alocacaoprofessor.view.DetalheDoItemActivity"
-25-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:14:19-61
-26            android:parentActivityName="com.example.alocacaoprofessor.view.DetalheDoItemActivity" />
-26-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:15:13-69
-27        <activity android:name="com.example.alocacaoprofessor.view.DepartamentoActivity" />
-27-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:16:9-63
-27-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:16:19-60
-28        <activity
-28-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:17:9-18:57
-29            android:name="com.example.alocacaoprofessor.MainActivity"
-29-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:17:19-47
-30            android:parentActivityName="com.example.alocacaoprofessor.MenuActivity" />
-30-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:18:13-55
-31        <activity android:name="com.example.alocacaoprofessor.MenuActivity" >
-31-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:19:9-25:20
-31-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:19:19-47
-32            <intent-filter>
-32-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:20:13-24:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:21:17-69
-33-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:21:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:23:17-77
-35-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:23:27-74
-36            </intent-filter>
-37        </activity>
+24        <activity android:name="com.example.alocacaoprofessor.view.DepartamentoActivity" />
+24-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:14:9-63
+24-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:14:19-60
+25        <activity android:name="com.example.alocacaoprofessor.MenuActivity" >
+25-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:15:9-21:20
+25-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:15:19-47
+26            <intent-filter>
+26-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:16:13-20:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:17:17-69
+27-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:17:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:19:17-77
+29-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:19:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <service
+33-->[androidx.room:room-runtime:2.2.5] /Users/gustavopapini/Library/Mobile Documents/com~apple~CloudDocs/Recode/Projetos/AndroidStudioProjects/mensagem_recode/gradle/caches/transforms-2/files-2.1/7cdeb1d41cb3439f6c770ab9c6dbd234/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+34            android:name="androidx.room.MultiInstanceInvalidationService"
+34-->[androidx.room:room-runtime:2.2.5] /Users/gustavopapini/Library/Mobile Documents/com~apple~CloudDocs/Recode/Projetos/AndroidStudioProjects/mensagem_recode/gradle/caches/transforms-2/files-2.1/7cdeb1d41cb3439f6c770ab9c6dbd234/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+35            android:directBootAware="true"
+35-->[androidx.room:room-runtime:2.2.5] /Users/gustavopapini/Library/Mobile Documents/com~apple~CloudDocs/Recode/Projetos/AndroidStudioProjects/mensagem_recode/gradle/caches/transforms-2/files-2.1/7cdeb1d41cb3439f6c770ab9c6dbd234/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+36            android:exported="false" />
+36-->[androidx.room:room-runtime:2.2.5] /Users/gustavopapini/Library/Mobile Documents/com~apple~CloudDocs/Recode/Projetos/AndroidStudioProjects/mensagem_recode/gradle/caches/transforms-2/files-2.1/7cdeb1d41cb3439f6c770ab9c6dbd234/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+37    </application>
 38
-39        <service
-39-->[androidx.room:room-runtime:2.2.5] /Users/gustavopapini/Library/Mobile Documents/com~apple~CloudDocs/Recode/Projetos/AndroidStudioProjects/mensagem_recode/gradle/caches/transforms-2/files-2.1/7cdeb1d41cb3439f6c770ab9c6dbd234/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
-40            android:name="androidx.room.MultiInstanceInvalidationService"
-40-->[androidx.room:room-runtime:2.2.5] /Users/gustavopapini/Library/Mobile Documents/com~apple~CloudDocs/Recode/Projetos/AndroidStudioProjects/mensagem_recode/gradle/caches/transforms-2/files-2.1/7cdeb1d41cb3439f6c770ab9c6dbd234/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
-41            android:directBootAware="true"
-41-->[androidx.room:room-runtime:2.2.5] /Users/gustavopapini/Library/Mobile Documents/com~apple~CloudDocs/Recode/Projetos/AndroidStudioProjects/mensagem_recode/gradle/caches/transforms-2/files-2.1/7cdeb1d41cb3439f6c770ab9c6dbd234/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
-42            android:exported="false" />
-42-->[androidx.room:room-runtime:2.2.5] /Users/gustavopapini/Library/Mobile Documents/com~apple~CloudDocs/Recode/Projetos/AndroidStudioProjects/mensagem_recode/gradle/caches/transforms-2/files-2.1/7cdeb1d41cb3439f6c770ab9c6dbd234/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
-43    </application>
-44
-45</manifest>
+39</manifest>
