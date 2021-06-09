@@ -9,9 +9,9 @@ com/example/alocacaoprofessor/model/DepartamentoDTO.java
  com.example.alocacaoprofessor.model.DepartamentoDTO
 com/example/alocacaoprofessor/repository/RetrofitConfiguration.java
  com.example.alocacaoprofessor.repository.RetrofitConfiguration
-com/example/alocacaoprofessor/model/Departamento.java
- com.example.alocacaoprofessor.model.Departamento
 com/example/alocacaoprofessor/service/DepartamentoService.java
  com.example.alocacaoprofessor.service.DepartamentoService
+com/example/alocacaoprofessor/model/Department.java
+ com.example.alocacaoprofessor.model.Department
 com/example/alocacaoprofessor/MenuActivity.java
  com.example.alocacaoprofessor.MenuActivity

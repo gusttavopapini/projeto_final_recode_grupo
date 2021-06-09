@@ -8,7 +8,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.alocacaoprofessor.R;
-import com.example.alocacaoprofessor.model.Departamento;
+import com.example.alocacaoprofessor.model.Department;
 import com.example.alocacaoprofessor.repository.RetrofitConfiguration;
 
 import java.util.ArrayList;
@@ -20,7 +20,7 @@ import retrofit2.Response;
 
 public class DepartamentoActivity extends AppCompatActivity {
 
-    private List<Departamento> listObject = new ArrayList<>();
+    private List<Department> listObject = new ArrayList<>();
     private DepartamentoAdapter adapter;
 
     @Override
@@ -40,18 +40,18 @@ public class DepartamentoActivity extends AppCompatActivity {
     private void getAllItemsByServer() {
 
         RetrofitConfiguration retrofitConfiguration = new RetrofitConfiguration();
-        Call<List<Departamento>> service = retrofitConfiguration.getDepartamentoService().getTodosOsDepartamentos();
+        Call<List<Department>> service = retrofitConfiguration.getDepartamentoService().getTodosOsDepartamentos();
 
-        service.enqueue(new Callback<List<Departamento>>() {
+        service.enqueue(new Callback<List<Department>>() {
             @Override
-            public void onResponse(Call<List<Departamento>> call, Response<List<Departamento>> response) {
+            public void onResponse(Call<List<Department>> call, Response<List<Department>> response) {
                 if (response.isSuccessful()) {
-                    List<Departamento> departamentos = response.body();
-                    listObject.addAll(departamentos);
+                    List<Department> departments = response.body();
+                    listObject.addAll(departments);
                     adapter.notifyDataSetChanged();
 
-                    for (Departamento departamento : listObject) {
-                        Log.i(DepartamentoActivity.class.getSimpleName(), departamento.getName());
+                    for (Department department : listObject) {
+                        Log.i(DepartamentoActivity.class.getSimpleName(), department.getName());
                     }
                 } else {
                     String mensagemErro = response.errorBody().toString();
@@ -63,7 +63,7 @@ public class DepartamentoActivity extends AppCompatActivity {
 
 
             @Override
-            public void onFailure(Call<List<Departamento>> call, Throwable t) {
+            public void onFailure(Call<List<Department>> call, Throwable t) {
                 Toast.makeText(DepartamentoActivity.this, "Requisição para API de Departamento falhou", Toast.LENGTH_SHORT).show();
             }
         });

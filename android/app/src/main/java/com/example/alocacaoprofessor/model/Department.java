@@ -1,16 +1,16 @@
 package com.example.alocacaoprofessor.model;
 
-public class Departamento {
+public class Department {
 
     private int id;
     private String name;
 
-    public Departamento(int id, String name) {
+    public Department(int id, String name) {
         this.id = id;
         this.name = name;
     }
 
-    public Departamento() {
+    public Department() {
     }
 
     public int getId() {

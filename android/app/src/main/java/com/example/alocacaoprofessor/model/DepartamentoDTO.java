@@ -6,7 +6,7 @@ public class DepartamentoDTO {
     private int id;
     private String name;
 
-    public DepartamentoDTO(List<Departamento> departamentos, int id, String name) {
+    public DepartamentoDTO(List<Department> departments, int id, String name) {
         this.id = id;
         this.name = name;
     }

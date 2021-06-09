@@ -44,12 +44,16 @@
         "source": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/res/drawable/rounded.xml"
     },
     {
-        "merged": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/build/intermediates/res/merged/debug/drawable_ic_add.xml.flat",
+        "source": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/res/drawable/ic_add.xml"
     },
     {
         "merged": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/build/intermediates/res/merged/debug/layout_item_departamento.xml.flat",
         "source": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/res/layout/item_departamento.xml"
+    },
+    {
+        "merged": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",

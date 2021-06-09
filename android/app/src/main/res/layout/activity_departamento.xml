@@ -9,10 +9,18 @@
     <ListView
         android:id="@+id/lvDepartamentolist"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="16dp">
-    </ListView>
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/addButton"
+        ></ListView>
+
+    <ImageButton
+        android:id="@+id/addButton"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:background="@drawable/ic_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 
 
