@@ -1777,7 +1777,9 @@ int id blocking 0x7f080054
 int id bottom 0x7f080055
 int id bounce 0x7f080056
 int id buttonCurso 0x7f080059
+int id buttonDeleteDepartment 0x7f0801ab
 int id buttonDepartamento 0x7f08005a
+int id buttonEditDepartment 0x7f0801ac
 int id buttonPanel 0x7f08005b
 int id cache_measures 0x7f08005c
 int id cancel_button 0x7f08005d
@@ -1816,7 +1818,6 @@ int id decelerate 0x7f08007d
 int id decelerateAndComplete 0x7f08007e
 int id decor_content_parent 0x7f08007f
 int id default_activity_button 0x7f080080
-int id deleteDepartment 0x7f0801a9
 int id deltaRelative 0x7f080081
 int id dependency_ordering 0x7f080082
 int id design_bottom_sheet 0x7f080083
@@ -1841,7 +1842,6 @@ int id dropdown_menu 0x7f080095
 int id easeIn 0x7f080096
 int id easeInOut 0x7f080097
 int id easeOut 0x7f080098
-int id editDepartment 0x7f0801aa
 int id edit_query 0x7f080099
 int id elastic 0x7f08009a
 int id end 0x7f08009b
@@ -1877,7 +1877,6 @@ int id homeAsUp 0x7f0800b9
 int id honorRequest 0x7f0800ba
 int id icon 0x7f0800bb
 int id icon_group 0x7f0800bc
-int id idDepartment 0x7f0800bd
 int id ifRoom 0x7f0800be
 int id ignore 0x7f0800bf
 int id ignoreRequest 0x7f0800c0
@@ -2094,7 +2093,8 @@ int id transition_position 0x7f080193
 int id transition_scene_layoutid_cache 0x7f080194
 int id transition_transform 0x7f080195
 int id triangle 0x7f080196
-int id tvItemTitle 0x7f080199
+int id tvIdDepartment 0x7f0801ad
+int id tvNameDepartment 0x7f0801ae
 int id tvProfessorNameItem 0x7f08019a
 int id unchecked 0x7f08019b
 int id uniform 0x7f08019c

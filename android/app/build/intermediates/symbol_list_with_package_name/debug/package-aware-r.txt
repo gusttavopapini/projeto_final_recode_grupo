@@ -1778,7 +1778,9 @@ id blocking
 id bottom
 id bounce
 id buttonCurso
+id buttonDeleteDepartment
 id buttonDepartamento
+id buttonEditDepartment
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1817,7 +1819,6 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
-id deleteDepartment
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -1842,7 +1843,6 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
-id editDepartment
 id edit_query
 id elastic
 id end
@@ -1878,7 +1878,6 @@ id homeAsUp
 id honorRequest
 id icon
 id icon_group
-id idDepartment
 id ifRoom
 id ignore
 id ignoreRequest
@@ -2095,7 +2094,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tvItemTitle
+id tvIdDepartment
+id tvNameDepartment
 id tvProfessorNameItem
 id unchecked
 id uniform

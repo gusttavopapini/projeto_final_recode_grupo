@@ -53,14 +53,12 @@ public class DepartamentoActivity extends AppCompatActivity {
                     for (Department department : listObject) {
                         Log.i(DepartamentoActivity.class.getSimpleName(), department.getName());
                     }
+
                 } else {
-                    String mensagemErro = response.errorBody().toString();
-                    Toast.makeText(DepartamentoActivity.this, mensagemErro, Toast.LENGTH_SHORT).show();
+                    String messageError = response.errorBody().toString();
+                    Toast.makeText(DepartamentoActivity.this, messageError, Toast.LENGTH_SHORT).show();
                 }
             }
-
-
-
 
             @Override
             public void onFailure(Call<List<Department>> call, Throwable t) {

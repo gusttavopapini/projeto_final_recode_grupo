@@ -16,7 +16,17 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/tvItemTitle"
+            android:id="@+id/tvIdDepartment"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.5dp"
+            android:text="id"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvNameDepartment"
             android:layout_width="238dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
@@ -27,18 +37,8 @@
             android:textStyle="bold"
             tools:text="Titulo do item" />
 
-        <TextView
-            android:id="@+id/idDepartment"
-            android:layout_width="24dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8.5dp"
-            android:text="id"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-
         <ImageButton
-            android:id="@+id/editDepartment"
+            android:id="@+id/buttonEditDepartment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
@@ -46,7 +46,7 @@
             android:layout_marginStart="20dp"/>
 
         <ImageButton
-            android:id="@+id/deleteDepartment"
+            android:id="@+id/buttonDeleteDepartment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
