@@ -1,7 +1,9 @@
 package com.example.alocacaoprofessor.view;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -68,4 +70,8 @@ public class DepartamentoActivity extends AppCompatActivity {
 
     }
 
+    public void abrirTelaCreateNewDepartment(View view) {
+        Intent intent = new Intent(this, DepartamentoAdd.class);
+        startActivity(intent);
+    }
 }

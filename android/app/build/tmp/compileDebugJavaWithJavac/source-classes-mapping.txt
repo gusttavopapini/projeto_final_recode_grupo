@@ -1,3 +1,5 @@
+com/example/alocacaoprofessor/view/DepartamentoAdd.java
+ com.example.alocacaoprofessor.view.DepartamentoAdd
 com/example/alocacaoprofessor/view/DepartamentoActivity.java
  com.example.alocacaoprofessor.view.DepartamentoActivity
  com.example.alocacaoprofessor.view.DepartamentoActivity$1

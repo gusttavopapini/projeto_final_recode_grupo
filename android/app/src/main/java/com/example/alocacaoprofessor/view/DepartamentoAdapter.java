@@ -18,7 +18,7 @@ import java.util.List;
 public class DepartamentoAdapter extends ArrayAdapter {
     private Context context;
     private int resource;
-    private List<Department> objects;
+    private final List<Department> objects;
 
     public DepartamentoAdapter(@NonNull Context context, int resource, @NonNull List objects) {
         super(context, resource, objects);

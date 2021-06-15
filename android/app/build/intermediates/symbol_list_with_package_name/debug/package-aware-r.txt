@@ -1649,6 +1649,7 @@ drawable ic_edit
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_logo_app_background
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -1777,11 +1778,14 @@ id beginning
 id blocking
 id bottom
 id bounce
-id buttonCurso
+id buttonAllocation
+id buttonCourse
 id buttonDeleteDepartment
 id buttonDepartamento
 id buttonEditDepartment
+id buttonEnterCreateDepartment
 id buttonPanel
+id buttonProfessor
 id cache_measures
 id cancel_button
 id center
@@ -1849,6 +1853,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id etCreateDepartment
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1882,6 +1887,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageLogo
 id info
 id invisible
 id inward
@@ -2069,6 +2075,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2172,6 +2179,7 @@ layout abc_tooltip
 layout activity_departamento
 layout activity_main
 layout activity_menu
+layout add_department
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2258,6 +2266,9 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap ic_logo_app
+mipmap ic_logo_app_foreground
+mipmap ic_logo_app_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
