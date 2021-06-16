@@ -1,9 +1,11 @@
 package com.example.alocacaoprofessor.view;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -24,11 +26,19 @@ public class DepartamentoActivity extends AppCompatActivity {
 
     private List<Department> listObject = new ArrayList<>();
     private DepartamentoAdapter adapter;
-
+    private ImageView botaoControleDB;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_departamento);
+
+        botaoControleDB = (ImageView) findViewById(R.id.addButton);
+        botaoControleDB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://projeto-recodeiv.netlify.app/department/forms/")));
+            }
+        });
 
         ListView departamentoList = findViewById(R.id.lvDepartamentolist);
 
@@ -54,6 +64,7 @@ public class DepartamentoActivity extends AppCompatActivity {
 
                     for (Department department : listObject) {
                         Log.i(DepartamentoActivity.class.getSimpleName(), department.getName());
+                        //Log.i(DepartamentoActivity.class.getSimpleName(), String.valueOf(department.getId()));
                     }
 
                 } else {
@@ -70,8 +81,4 @@ public class DepartamentoActivity extends AppCompatActivity {
 
     }
 
-    public void abrirTelaCreateNewDepartment(View view) {
-        Intent intent = new Intent(this, DepartamentoAdd.class);
-        startActivity(intent);
-    }
 }

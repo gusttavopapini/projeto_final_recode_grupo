@@ -1,8 +1,7 @@
-com/example/alocacaoprofessor/view/DepartamentoAdd.java
- com.example.alocacaoprofessor.view.DepartamentoAdd
 com/example/alocacaoprofessor/view/DepartamentoActivity.java
  com.example.alocacaoprofessor.view.DepartamentoActivity
  com.example.alocacaoprofessor.view.DepartamentoActivity$1
+ com.example.alocacaoprofessor.view.DepartamentoActivity$2
 com/example/alocacaoprofessor/view/DepartamentoAdapter.java
  com.example.alocacaoprofessor.view.DepartamentoAdapter
 com/example/alocacaoprofessor/BuildConfig.java

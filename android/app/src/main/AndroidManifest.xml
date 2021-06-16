@@ -13,6 +13,7 @@
         android:theme="@style/Theme.AlocacaoProfessor">
         <activity android:name=".view.DepartamentoActivity" />
         <activity android:name=".MenuActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -14,7 +14,4 @@ public interface DepartamentoService {
     @GET("departments")
     Call<List<Department>> getTodosOsDepartamentos();
 
-    @GET("departments/{id}")
-    Call<DepartamentoDTO> getDepartamentoByID(@Path("id") int idDepartamento);
-
 }

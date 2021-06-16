@@ -15,7 +15,7 @@
 11-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:7:5-22:19
+13-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:7:5-23:19
 14        android:allowBackup="true"
 14-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -37,17 +37,17 @@
 24-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:14:9-63
 24-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:14:19-60
 25        <activity android:name="com.example.alocacaoprofessor.MenuActivity" >
-25-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:15:9-21:20
+25-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:15:9-22:20
 25-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:15:19-47
 26            <intent-filter>
-26-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:16:13-20:29
+26-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:17:13-21:29
 27                <action android:name="android.intent.action.MAIN" />
-27-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:17:17-69
-27-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:17:25-66
+27-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:18:17-69
+27-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:18:25-66
 28
 29                <category android:name="android.intent.category.LAUNCHER" />
-29-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:19:17-77
-29-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:19:27-74
+29-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:20:17-77
+29-->/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/AndroidManifest.xml:20:27-74
 30            </intent-filter>
 31        </activity>
 32

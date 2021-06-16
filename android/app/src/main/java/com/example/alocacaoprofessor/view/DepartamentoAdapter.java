@@ -43,7 +43,7 @@ public class DepartamentoAdapter extends ArrayAdapter {
         tvNomeDepartamento.setText(department.getName());
 
 
-       // TextView tvIdDepartamento = view.findViewById(R.id.tvIdDepartment);
+       //TextView tvIdDepartamento = view.findViewById(R.id.tvIdDepartment);
         //tvIdDepartamento.setId(department.getId());
 
         return view;

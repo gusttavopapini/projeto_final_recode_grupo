@@ -1783,7 +1783,6 @@ id buttonCourse
 id buttonDeleteDepartment
 id buttonDepartamento
 id buttonEditDepartment
-id buttonEnterCreateDepartment
 id buttonPanel
 id buttonProfessor
 id cache_measures
@@ -1853,7 +1852,6 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
-id etCreateDepartment
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2075,7 +2073,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2101,7 +2098,6 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tvIdDepartment
 id tvNameDepartment
 id tvProfessorNameItem
 id unchecked
@@ -2179,7 +2175,6 @@ layout abc_tooltip
 layout activity_departamento
 layout activity_main
 layout activity_menu
-layout add_department
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

@@ -28,10 +28,6 @@
         "source": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/res/mipmap-hdpi/ic_logo_app_foreground.png"
     },
     {
-        "merged": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/build/intermediates/res/merged/debug/layout_add_department.xml.flat",
-        "source": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/res/layout/add_department.xml"
-    },
-    {
         "merged": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/build/intermediates/res/merged/debug/drawable_ic_delete.xml.flat",
         "source": "/Users/gustavopapini/Projects/projeto_final_recode/android/app/src/main/res/drawable/ic_delete.xml"
     },
